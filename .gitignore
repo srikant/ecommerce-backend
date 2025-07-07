@@ -1,1 +1,19 @@
-"node_modules/" 
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# Build and cache folders
+dist/
+.cache/
+coverage/

@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 const PORT = 3000;
+const productRoutes = require('./routes/productRoutes');
+
+app.use(express.json());
+app.use('/api/products', productRoutes);
 
 // Sample test route
 app.get("/", (req, res) => {
